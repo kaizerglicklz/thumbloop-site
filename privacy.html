@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — ThumbLoop</title>
+  <meta name="description" content="How ThumbLoop handles your data. Short version: almost everything stays in your own browser.">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="index.html">⚡ ThumbLoop</a>
+    <nav>
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="legal">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 22 June 2026</p>
+
+    <p>ThumbLoop is a Chrome extension that automates YouTube thumbnail A/B testing. It is
+      built to keep your data on your own machine. This policy explains exactly what is
+      stored, what leaves your browser, and what does not.</p>
+
+    <h2>The short version</h2>
+    <p>Your videos, thumbnail queues, test history and settings are stored locally in your
+      browser and never sent to us. The only data that ever leaves your machine is your Pro
+      license key (to verify your subscription) and — only if you choose to set it up —
+      notifications sent to your own Telegram. We do not run analytics, we do not sell data,
+      and we never receive your YouTube login or password.</p>
+
+    <h2>What we store, and where</h2>
+    <ul>
+      <li><strong>In your browser only (<code>chrome.storage.local</code>):</strong> the
+        videos you enroll, the thumbnails you queue, A/B test state and history, your
+        preferences, and (for Pro) your license key and activation record. This stays on your
+        device and is never transmitted to ThumbLoop.</li>
+      <li><strong>We operate no server</strong> for the Free and Pro tiers and keep no
+        database of users, videos, or thumbnails.</li>
+    </ul>
+
+    <h2>What leaves your browser</h2>
+    <ul>
+      <li><strong>YouTube / Google:</strong> the extension acts inside your own logged-in
+        YouTube Studio session in your browser to read test results and change thumbnails. It
+        also loads your videos' thumbnail images from YouTube. This is the same connection
+        your browser already makes to YouTube — we are not a middleman and receive none of it.</li>
+      <li><strong>Lemon Squeezy (Pro only):</strong> when you activate or verify a Pro
+        subscription, the extension sends your <em>license key</em> and a non-identifying
+        <em>instance ID</em> to Lemon Squeezy's license API
+        (<code>api.lemonsqueezy.com</code>) to confirm your subscription is active. No video
+        or thumbnail data is sent. Lemon Squeezy is our payment provider and Merchant of
+        Record; see their privacy policy at
+        <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener">lemonsqueezy.com/privacy</a>.</li>
+      <li><strong>Telegram (optional, off by default):</strong> if you add your own Telegram
+        bot token and chat ID in Settings, the extension sends test/swap notifications — which
+        may include thumbnail images — to your own Telegram chat via Telegram's API
+        (<code>api.telegram.org</code>). This only happens if you set it up, and the messages
+        go to you, not to us.</li>
+    </ul>
+
+    <h2>Payments</h2>
+    <p>We never see or store your card details. All payments and subscriptions are processed
+      by <strong>Lemon Squeezy</strong> (Sold through Link, LLC), our Merchant of Record, who
+      handles billing, taxes, and your payment information under their own privacy policy.</p>
+
+    <h2>Cookies &amp; tracking</h2>
+    <p>The extension itself sets no tracking cookies and runs no third-party analytics. This
+      website serves static pages and does not track you.</p>
+
+    <h2>Your control</h2>
+    <p>You can clear all locally stored data at any time by removing the extension from
+      <code>chrome://extensions</code>, or by clearing the extension's storage. To stop
+      Telegram notifications, remove your bot token in Settings.</p>
+
+    <h2>Children</h2>
+    <p>ThumbLoop is a tool for YouTube creators and is not directed at children under 13.</p>
+
+    <h2>Changes &amp; contact</h2>
+    <p>We may update this policy as the product evolves; the "last updated" date above will
+      change. Questions? Email
+      <a href="mailto:kaizerglicklz@gmail.com">kaizerglicklz@gmail.com</a>.</p>
+
+    <a class="back" href="index.html">← Back to ThumbLoop</a>
+  </div>
+</main>
+
+</body>
+</html>
